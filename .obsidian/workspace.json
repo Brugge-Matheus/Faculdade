@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07c7e80edcccd405",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SIGA ISSO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/Geral.md",
+                "file": "SIGA ISSO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/Geral.md",
+                "file": "SIGA ISSO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C/Geral.md"
+                "file": "SIGA ISSO.md"
               }
             }
           }
@@ -146,10 +159,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "83e63582a62bd3a4",
+  "active": "07c7e80edcccd405",
   "lastOpenFiles": [
-    "BD/Atividade 1.md",
     "C/Geral.md",
+    "SIGA ISSO.md",
+    "BD/Atividade 1.md",
     "BD",
     "C"
   ]
