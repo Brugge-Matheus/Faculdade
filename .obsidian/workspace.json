@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83e63582a62bd3a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C/Geral.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "07c7e80edcccd405",
             "type": "leaf",
             "state": {
@@ -30,9 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a05d520b4e157a94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ter - BD/Atividade 1- 05-03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +50,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -161,10 +160,16 @@
   },
   "active": "07c7e80edcccd405",
   "lastOpenFiles": [
-    "C/Geral.md",
+    "J.A UX/J.A 11-03.md",
+    "Ter - BD/Atividade 1- 05-03.md",
     "SIGA ISSO.md",
-    "BD/Atividade 1.md",
-    "BD",
-    "C"
+    "Sem título.md",
+    "Sem título 1.md",
+    "Sem título",
+    "Sex - Orientado a objetos",
+    "C/Geral.md",
+    "J.A UX",
+    "Ter - BD",
+    "Qua - Estrutura e Armazenamento"
   ]
 }

@@ -1,0 +1,1 @@
+Fundada em 1996 por Sergio Luiz de Carvalho e Marcos Fernando Vargas, a empresa Mão Colorida tem como objetivo de trabalho projetar Ponto de Vendas (PDV) para as empresas conforme a necessidade, integrando criação, engenharia, produção, atendimento comercial e pós venda.
