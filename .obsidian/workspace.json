@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83e63582a62bd3a4",
+            "id": "eb1accd90d21a700",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POO/Geral.md",
+                "file": "Armazenamento de dados/Geral AD.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "8fbd19be10acc736",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POO/Geral.md",
+                "file": "Armazenamento de dados/Geral AD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "POO/Geral.md",
+                "file": "Armazenamento de dados/Geral AD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "POO/Geral.md"
+                "file": "Armazenamento de dados/Geral AD.md"
               }
             }
           }
@@ -146,14 +154,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83e63582a62bd3a4",
+  "active": "eb1accd90d21a700",
   "lastOpenFiles": [
-    "C/Geral.md",
-    "POO/Geral.md",
+    "BD/Atividade 1.md",
+    "Jornada/Geral Jornada.md",
+    "POO/Geral POO.md",
+    "Home",
+    "Spaces",
+    "Armazenamento de dados/Geral AD.md",
+    "Jornada",
     "POO",
     "POO/Untitled.md",
-    "BD/Atividade 1.md",
     "BD",
-    "C"
+    "Armazenamento de dados"
   ]
 }
