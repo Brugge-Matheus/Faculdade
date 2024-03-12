@@ -4,7 +4,7 @@
 ### Dados gerados
 
 #### 1- *Dados Usuário* - Guarda as informações do usuário
-(Id,
+(IdUsuario *Primary Key*,
 NomeCompleto, 
 E-mail,
 Cpf,
@@ -13,27 +13,52 @@ Endereço
 
 #### *2- Suporte de atendimento ao cliente (SAC)*
 (
-idUsuario,
+idCliente *Primary Key*,
 NumeroPedido,
 problema,
 status,
-
-
-
 );
 
 
-#### 2- *Dados do pedido (usuário)* - Guarda as informações dos pedidos (Número, Data Pedido, Total, Endereço, Nota)
-=> 3- *Dados dos estoque* - Identifica quais os produtos existentes no estoque
-=> 4- *Dados de logística* - Guarda dos dados de separação e envio dos pedidos
-=> 5- *Dados de localização* - 
-=> 6- *Dados Funcionários* - Identifica os funcionários que trabalham na loja (Id, IdCargo, Nome, Salário)
-=> 7- *Dados de ponto* - Guarda as informações dos pontos batidos pelos funcionários
-=> 8- *Dados de UX* - Guarda os dados de experiência do usuário em relação a empresa (Avaliação)
-=> 9- *Dados de Histórico de pedidos (empresa)* - Guarda as informações dos pedidos feitos a forncedores para a empresa
-=> 10- *Dados de credenciais do Usuário* - Guarda as informações do usuário utilizando certificado ssl, firewalls e etc...
+#### 1- e-commerce
+(
+idproduto *Primary Key*,
+nome,
+preço,
+descrição,
+imagem
+)
+
+##### 1.1 - Categoria
+(
+idproduto *Primary Key*,
+nome
+)
+
+##### 1.2 - Pedidos
+(
+clienteid *Primary Key*,
+pedidoid *Foreign Key*,
+datapedidos,
+)
+
+##### 1.2.1 - Itens Pedido
+(
+itempedidoid *Primary Key*,
+pedidoid *Foreign Key*,
+produtoid *Foreign Key*,
+quantidade,
+precoUnitario
+)
 
 
+
+
+
+
+
+
+#### Centro de distribuição
 ## Informações HoGa_TECH
 
 ### Informações Operacionais
