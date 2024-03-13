@@ -4,7 +4,7 @@
 ### Dados gerados
 
 #### 1- *Dados Usuário* - Guarda as informações do usuário
-(IdUsuario *Primary Key*,
+(idCliente *Primary Key*,
 NomeCompleto, 
 E-mail,
 Cpf,
@@ -13,7 +13,7 @@ Endereço
 
 #### *2- Suporte de atendimento ao cliente (SAC)*
 (
-idCliente *Primary Key*,
+idCliente *Foreign Key*,
 NumeroPedido,
 problema,
 status,
@@ -21,6 +21,7 @@ status,
 
 
 #### 1- e-commerce
+##### Produto
 (
 idproduto *Primary Key*,
 nome,
@@ -31,30 +32,41 @@ imagem
 
 ##### 1.1 - Categoria
 (
-idproduto *Primary Key*,
+idproduto *Foreign Key*,
 nome
 )
 
 ##### 1.2 - Pedidos
 (
 clienteid *Primary Key*,
-pedidoid *Foreign Key*,
+idpedido *Foreign Key*,
 datapedidos,
 )
 
 ##### 1.2.1 - Itens Pedido
 (
-itempedidoid *Primary Key*,
+iditempedido *Primary Key*,
 pedidoid *Foreign Key*,
 produtoid *Foreign Key*,
 quantidade,
 precoUnitario
 )
 
+#### 2- Centro de distribuição
+##### 2.1 - PedidoDistribuicao
+idpedido
+idcliente
+status
+responsavel
+
+#### 3- **Atendimento ao cliente:**
+##### 3.1 - Protocolo
+idcliente
+idpedido
+descrição
+statusprotocolo
 
 
-
-#### Centro de distribuição
 ## Informações HoGa_TECH
 
 ### Informações Operacionais
@@ -63,7 +75,7 @@ precoUnitario
     
 2.  **Centro de distribuição:** A empresa possui um centro de distribuição estrategicamente localizado para garantir uma entrega eficiente em todo o Brasil.
     
-3.  **Atendimento ao cliente:** Valorizando o atendimento ao cliente, a HoGa_TECH oferece suporte via chat online, e-mail e telefone, além de uma seção de perguntas frequentes em seu site.
+3.  **Atendimento ao cliente:** Valorizando o atendimento ao cliente, a HoGa_TECH oferece suporte via chat online, e-mail e telefone.
  
 ### Informações Gerenciais
 

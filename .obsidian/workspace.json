@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07c7e80edcccd405",
+            "id": "a05d520b4e157a94",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "a05d520b4e157a94",
+            "id": "07c7e80edcccd405",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ter - BD/Atividade 1- 05-03.md",
+                "file": "Ter - BD/Aula 12-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dc42c390212bafed",
@@ -158,11 +159,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "07c7e80edcccd405",
+  "active": "544f337d1e2ddc37",
   "lastOpenFiles": [
-    "Sem título.md",
-    "Sem título 1.md",
+    "Ter - BD/Aula 12-03.md",
     "Ter - BD/Atividade 1- 05-03.md",
+    "Ter - BD/Sem título 1.md",
     "SIGA ISSO.md",
     "J.A UX/J.A 11-03.md",
     "Sem título",
