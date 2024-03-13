@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "e341a9ab3283448f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ter - BD/Atividade 1- 05-03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "07c7e80edcccd405",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "dc42c390212bafed",
@@ -159,10 +171,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "544f337d1e2ddc37",
+  "active": "e341a9ab3283448f",
   "lastOpenFiles": [
-    "Ter - BD/Aula 12-03.md",
+    "Ter - BD/Estrutura de dados.md",
+    "conflict-files-obsidian-git.md",
     "Ter - BD/Atividade 1- 05-03.md",
+    "Ter - BD/Aula 12-03.md",
     "Ter - BD/Sem título 1.md",
     "SIGA ISSO.md",
     "J.A UX/J.A 11-03.md",
